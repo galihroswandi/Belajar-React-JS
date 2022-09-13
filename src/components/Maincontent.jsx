@@ -6,8 +6,6 @@ import jurusan3 from "./../assets/jurusan3.jpg";
 import Cardkegiatan from "./Cardkegiatan";
 import kegiatan1 from "./../assets/kegiatan1.jpg";
 import kegiatan2 from "./../assets/kegiatan2.jpeg";
-import kegiatan3 from "./../assets/kegiatan3.jpg";
-import kegiatan4 from "./../assets/kegiatan4.jpg";
 import kegiatan5 from "./../assets/kegiatan5.jpg";
 
 const Maincontent = () => {
