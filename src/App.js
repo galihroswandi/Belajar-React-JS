@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Cardprofile from './components/Cardprofile';
+import Navigation from './components/Navigation';
+import Maincontent from './components/Maincontent';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
-      <Cardprofile />
+      <Navigation />
+      <Maincontent />
+      <Footer />
     </div>
   );
 }
