@@ -21,8 +21,18 @@ class App extends React.Component {
 
     // {map} => memetakan array menjadi array baru "array.map( callbackFunction )"
     const fruits = ['mangga', 'apple', 'anggur', 'jeruk', 'nanas', 'strawberry'];
-    const fruit = fruits.map( (f, index) => <li key={index}>{f}</li> );
-        // {push} => Menambahkan nilai array baru "array.push"
+      // {push} => Menambahkan nilai array baru "array.push(Content)"
+      fruits.push('manggu');
+      // {pop} => Menghapus nilai array yang paling akhir "array.pop()"
+      // fruits.pop();
+      // {shift} => Menghapus data array paling depan "array.shift()"
+      // fruits.shift();
+      // {spile} => Menghapus data array berdasarkan index tertentu "array.splice( startIndex, totalData)"
+      // fruits.splice(2,4);
+      // {includes} => Mencari data di dalam array berdasarkan keywords yang di masukan
+      // console.log(fruits.includes('anggur')); 
+      const fruit = fruits.map( (f, index) => <li key={index}>{f}</li> );
+
 
     // {filter} => memfilter array menjadikannya array baru "array.filter( callbackFunction )"
     const numbers = [1, 6, 7, 8, 9, 0, 2];
@@ -36,10 +46,10 @@ class App extends React.Component {
 
     return (
     <div>
+      <h1>Hallo</h1>
       <ul>
-        {number}
+        {fruit}
       </ul>
-      <h1>Total Nilai Dari Array : {totalNilai}</h1>
     </div>
     )
   }
