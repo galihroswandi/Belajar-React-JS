@@ -43,12 +43,11 @@ class App extends React.Component {
     const name = ['G', 'a', 'l', 'i', 'h', 'R', 'o', 's', 'w', 'a', 'n', 'd', 'i'];
     const fullName = name.reduce((value, acc) => value + acc);
     const totalNilai = numb.reduce( (value, acc) => value + acc );
-
     return (
     <div>
-      <h1>Hallo</h1>
+      <h1>{fullName}</h1>
       <ul>
-        {fruit}
+        {number}
       </ul>
     </div>
     )
